@@ -12,26 +12,29 @@ q : q to quit
 
 3 : create incremented number each time the macro(register a) is executed, to set the starting number, set g:custom_temp
 
-10 : convert form to sql syntax<br />
-// convert<br />
-name : Alief<br />
-class : Archer<br />
-// into<br />
-INSERT INTO `` ('name','class') VALUES ('Alief','Archer')<br />
-
+10 : convert form to sql syntax
+```
+// convert
+name : Alief
+class : Archer
+// into
+INSERT INTO `` ('name','class') VALUES ('Alief','Archer')
+```
 ------------------ apply the macro immidiately (without using register a)
 
 4 : add current date to each line (select the line first)
+```
 // convert
 todolist 
 todolist 
 // into
 @18 Juni 2018 - todolist 
 @18 Juni 2018 - todolist 
-
+```
 
 
 6 : generate fdb entry template
+```
 "":{
   "birth-day":"",
   "alamat":"",
@@ -39,6 +42,7 @@ todolist
     ""
   ]
 }
+```
 
 5 : auto update based on current date (only in ctd file)
 
