@@ -1,52 +1,39 @@
-\- : to see this help
+# VIM Predefined Macro
 
-q : q to quit
+Load already-predefined macro to register `a`
 
------------------- put the macro to register A
+## Usage : 
+1. Enter Ex command-line
+2. execute
 
-0 : create instance variable, public function __construct([$]variable, [$]orHere)  // [] <- cursor here
+`:PredefinedMacro <predefined_macro_number>`
 
-1 : create setter, [p]ublic $interval;  // [] <- cursor here
+## Installation :
 
-2 : create create getter, [p]ublic $interval;  // [] <- cursor here
+1. Downlod twiddle-case.vim 
+2. add this line into your `vimrc` (adjust ``<your-path>``)
 
-3 : create incremented number each time the macro(register a) is executed, to set the starting number, set g:custom_temp
-
-10 : convert form to sql syntax
-```
-// convert
-name : Alief
-class : Archer
-// into
-INSERT INTO `` ('name','class') VALUES ('Alief','Archer')
-```
------------------- apply the macro immidiately (without using register a)
-
-4 : add current date to each line (select the line first)
-```
-// convert
-todolist 
-todolist 
-// into
-@18 Juni 2018 - todolist 
-@18 Juni 2018 - todolist 
-```
+`so  <your-path>/predefined-macro.vim`
 
 
-6 : generate fdb entry template
-```
-"":{
-  "birth-day":"",
-  "alamat":"",
-  "random-stories" : [
-    ""
-  ]
-}
-```
+## License : 
+GNU GPL
 
-5 : auto update based on current date (only in ctd file)
+## Available Predefined Macro
 
-7 : (still in dev)fold all /** ... */ 
+1. FOR PHP. create instance variable
 
-8 : (still in dev)fold all {...}
+    `public function __construct([$]variable, $orHere)  // [] <- cursor here"`
+
+2. FOR PHP. create setter
+
+    `[p]ublic $interval;  // [] <- cursor here"`
+
+3. FOR PHP. create create getter 
+
+    `[p]ublic $interval;  // [] <- cursor here"`
+
+4. Create incremented number each time the macro(register a) is executed, to set the starting number.
+
+    `let g:custom_temp`
 
