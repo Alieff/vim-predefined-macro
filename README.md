@@ -6,14 +6,14 @@ Load already-predefined macro to register `a`
 1. Enter Ex command-line
 2. execute
 
-`:PredefinedMacro <predefined_macro_number>`
+    `:PredefinedMacro <predefined_macro_number>`
 
 ## Installation :
 
 1. Downlod twiddle-case.vim 
 2. add this line into your `vimrc` (adjust ``<your-path>``)
 
-`so  <your-path>/predefined-macro.vim`
+    `so  <your-path>/predefined-macro.vim`
 
 
 ## License : 
