@@ -21,15 +21,15 @@ GNU GPL
 
 ## Available Predefined Macro
 
-1. FOR PHP. create instance variable
+1. **FOR PHP**. create instance variable
 
     `public function __construct([$]variable, $orHere)  // [] <- cursor here"`
 
-2. FOR PHP. create setter
+2. **FOR PHP**. create setter
 
     `[p]ublic $interval;  // [] <- cursor here"`
 
-3. FOR PHP. create create getter 
+3. **FOR PHP**. create create getter 
 
     `[p]ublic $interval;  // [] <- cursor here"`
 
